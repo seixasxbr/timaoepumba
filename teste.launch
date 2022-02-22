@@ -1,0 +1,8 @@
+<launch>
+
+    <node name="push_but" pkg="timon_demo" type="pushtry1" respawn="false" output="screen">
+      <remap from="/joint_states" to="/timon/joint_states"/>
+    </node>
+  
+  </launch>
+  
